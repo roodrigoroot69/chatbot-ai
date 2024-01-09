@@ -38,3 +38,10 @@ class Keywords(BaseModel):
 
     def __str__(self) -> str:
         return f'{self.keywords}'
+
+
+    @property
+    def validate_question(self, question: str) -> bool:
+        if question in self.keywords:
+            return True
+        return False

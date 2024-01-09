@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'src.chati.apps.ChatiConfig',
+    'src.chatlai.apps.ChatiConfig',
 ]
 
 MIDDLEWARE = [
